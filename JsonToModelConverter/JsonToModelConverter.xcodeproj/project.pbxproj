@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		569A185F1F4BB40E00D991DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 569A185E1F4BB40E00D991DD /* AppDelegate.m */; };
+		569A18621F4BB40E00D991DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 569A18611F4BB40E00D991DD /* main.m */; };
+		569A18651F4BB40E00D991DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 569A18641F4BB40E00D991DD /* ViewController.m */; };
+		569A18671F4BB40E00D991DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 569A18661F4BB40E00D991DD /* Assets.xcassets */; };
+		569A186A1F4BB40E00D991DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 569A18681F4BB40E00D991DD /* Main.storyboard */; };
+		569A18751F4BB40E00D991DD /* JsonToModelConverterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 569A18741F4BB40E00D991DD /* JsonToModelConverterTests.m */; };
+		569A18801F4BB40E00D991DD /* JsonToModelConverterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 569A187F1F4BB40E00D991DD /* JsonToModelConverterUITests.m */; };
+		569A18941F4BFB6000D991DD /* ConvertHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 569A18931F4BFB6000D991DD /* ConvertHelper.m */; };
+		569A18991F4C3CFB00D991DD /* MJExtensionConvert.m in Sources */ = {isa = PBXBuildFile; fileRef = 569A18981F4C3CFB00D991DD /* MJExtensionConvert.m */; };
+		569A189C1F4C46C600D991DD /* NSString+JsonToObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 569A189B1F4C46C600D991DD /* NSString+JsonToObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		569A18711F4BB40E00D991DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 569A18521F4BB40E00D991DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 569A18591F4BB40E00D991DD;
+			remoteInfo = JsonToModelConverter;
+		};
+		569A187C1F4BB40E00D991DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 569A18521F4BB40E00D991DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 569A18591F4BB40E00D991DD;
+			remoteInfo = JsonToModelConverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		569A185A1F4BB40E00D991DD /* JsonToModelConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsonToModelConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		569A185D1F4BB40E00D991DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		569A185E1F4BB40E00D991DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		569A18611F4BB40E00D991DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		569A18631F4BB40E00D991DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		569A18641F4BB40E00D991DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		569A18661F4BB40E00D991DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		569A18691F4BB40E00D991DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		569A186B1F4BB40E00D991DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		569A18701F4BB40E00D991DD /* JsonToModelConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonToModelConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		569A18741F4BB40E00D991DD /* JsonToModelConverterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonToModelConverterTests.m; sourceTree = "<group>"; };
+		569A18761F4BB40E00D991DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		569A187B1F4BB40E00D991DD /* JsonToModelConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonToModelConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		569A187F1F4BB40E00D991DD /* JsonToModelConverterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonToModelConverterUITests.m; sourceTree = "<group>"; };
+		569A18811F4BB40E00D991DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		569A18921F4BFB6000D991DD /* ConvertHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConvertHelper.h; sourceTree = "<group>"; };
+		569A18931F4BFB6000D991DD /* ConvertHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConvertHelper.m; sourceTree = "<group>"; };
+		569A18971F4C3CFB00D991DD /* MJExtensionConvert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConvert.h; sourceTree = "<group>"; };
+		569A18981F4C3CFB00D991DD /* MJExtensionConvert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConvert.m; sourceTree = "<group>"; };
+		569A189A1F4C46C600D991DD /* NSString+JsonToObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JsonToObject.h"; sourceTree = "<group>"; };
+		569A189B1F4C46C600D991DD /* NSString+JsonToObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JsonToObject.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		569A18571F4BB40E00D991DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		569A186D1F4BB40E00D991DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		569A18781F4BB40E00D991DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		569A18511F4BB40E00D991DD = {
+			isa = PBXGroup;
+			children = (
+				569A185C1F4BB40E00D991DD /* JsonToModelConverter */,
+				569A18731F4BB40E00D991DD /* JsonToModelConverterTests */,
+				569A187E1F4BB40E00D991DD /* JsonToModelConverterUITests */,
+				569A185B1F4BB40E00D991DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		569A185B1F4BB40E00D991DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				569A185A1F4BB40E00D991DD /* JsonToModelConverter.app */,
+				569A18701F4BB40E00D991DD /* JsonToModelConverterTests.xctest */,
+				569A187B1F4BB40E00D991DD /* JsonToModelConverterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		569A185C1F4BB40E00D991DD /* JsonToModelConverter */ = {
+			isa = PBXGroup;
+			children = (
+				569A188E1F4BF51D00D991DD /* JsonToModel */,
+				569A185D1F4BB40E00D991DD /* AppDelegate.h */,
+				569A185E1F4BB40E00D991DD /* AppDelegate.m */,
+				569A18631F4BB40E00D991DD /* ViewController.h */,
+				569A18641F4BB40E00D991DD /* ViewController.m */,
+				569A18661F4BB40E00D991DD /* Assets.xcassets */,
+				569A18681F4BB40E00D991DD /* Main.storyboard */,
+				569A186B1F4BB40E00D991DD /* Info.plist */,
+				569A18601F4BB40E00D991DD /* Supporting Files */,
+			);
+			path = JsonToModelConverter;
+			sourceTree = "<group>";
+		};
+		569A18601F4BB40E00D991DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				569A18611F4BB40E00D991DD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		569A18731F4BB40E00D991DD /* JsonToModelConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				569A18741F4BB40E00D991DD /* JsonToModelConverterTests.m */,
+				569A18761F4BB40E00D991DD /* Info.plist */,
+			);
+			path = JsonToModelConverterTests;
+			sourceTree = "<group>";
+		};
+		569A187E1F4BB40E00D991DD /* JsonToModelConverterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				569A187F1F4BB40E00D991DD /* JsonToModelConverterUITests.m */,
+				569A18811F4BB40E00D991DD /* Info.plist */,
+			);
+			path = JsonToModelConverterUITests;
+			sourceTree = "<group>";
+		};
+		569A188E1F4BF51D00D991DD /* JsonToModel */ = {
+			isa = PBXGroup;
+			children = (
+				569A189A1F4C46C600D991DD /* NSString+JsonToObject.h */,
+				569A189B1F4C46C600D991DD /* NSString+JsonToObject.m */,
+				569A18921F4BFB6000D991DD /* ConvertHelper.h */,
+				569A18931F4BFB6000D991DD /* ConvertHelper.m */,
+				569A18971F4C3CFB00D991DD /* MJExtensionConvert.h */,
+				569A18981F4C3CFB00D991DD /* MJExtensionConvert.m */,
+			);
+			path = JsonToModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		569A18591F4BB40E00D991DD /* JsonToModelConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 569A18841F4BB40E00D991DD /* Build configuration list for PBXNativeTarget "JsonToModelConverter" */;
+			buildPhases = (
+				569A18561F4BB40E00D991DD /* Sources */,
+				569A18571F4BB40E00D991DD /* Frameworks */,
+				569A18581F4BB40E00D991DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JsonToModelConverter;
+			productName = JsonToModelConverter;
+			productReference = 569A185A1F4BB40E00D991DD /* JsonToModelConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		569A186F1F4BB40E00D991DD /* JsonToModelConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 569A18871F4BB40E00D991DD /* Build configuration list for PBXNativeTarget "JsonToModelConverterTests" */;
+			buildPhases = (
+				569A186C1F4BB40E00D991DD /* Sources */,
+				569A186D1F4BB40E00D991DD /* Frameworks */,
+				569A186E1F4BB40E00D991DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				569A18721F4BB40E00D991DD /* PBXTargetDependency */,
+			);
+			name = JsonToModelConverterTests;
+			productName = JsonToModelConverterTests;
+			productReference = 569A18701F4BB40E00D991DD /* JsonToModelConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		569A187A1F4BB40E00D991DD /* JsonToModelConverterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 569A188A1F4BB40E00D991DD /* Build configuration list for PBXNativeTarget "JsonToModelConverterUITests" */;
+			buildPhases = (
+				569A18771F4BB40E00D991DD /* Sources */,
+				569A18781F4BB40E00D991DD /* Frameworks */,
+				569A18791F4BB40E00D991DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				569A187D1F4BB40E00D991DD /* PBXTargetDependency */,
+			);
+			name = JsonToModelConverterUITests;
+			productName = JsonToModelConverterUITests;
+			productReference = 569A187B1F4BB40E00D991DD /* JsonToModelConverterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		569A18521F4BB40E00D991DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = chenjb;
+				TargetAttributes = {
+					569A18591F4BB40E00D991DD = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					569A186F1F4BB40E00D991DD = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 569A18591F4BB40E00D991DD;
+					};
+					569A187A1F4BB40E00D991DD = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 569A18591F4BB40E00D991DD;
+					};
+				};
+			};
+			buildConfigurationList = 569A18551F4BB40E00D991DD /* Build configuration list for PBXProject "JsonToModelConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 569A18511F4BB40E00D991DD;
+			productRefGroup = 569A185B1F4BB40E00D991DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				569A18591F4BB40E00D991DD /* JsonToModelConverter */,
+				569A186F1F4BB40E00D991DD /* JsonToModelConverterTests */,
+				569A187A1F4BB40E00D991DD /* JsonToModelConverterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		569A18581F4BB40E00D991DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569A18671F4BB40E00D991DD /* Assets.xcassets in Resources */,
+				569A186A1F4BB40E00D991DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		569A186E1F4BB40E00D991DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		569A18791F4BB40E00D991DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		569A18561F4BB40E00D991DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569A18991F4C3CFB00D991DD /* MJExtensionConvert.m in Sources */,
+				569A18651F4BB40E00D991DD /* ViewController.m in Sources */,
+				569A18621F4BB40E00D991DD /* main.m in Sources */,
+				569A18941F4BFB6000D991DD /* ConvertHelper.m in Sources */,
+				569A189C1F4C46C600D991DD /* NSString+JsonToObject.m in Sources */,
+				569A185F1F4BB40E00D991DD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		569A186C1F4BB40E00D991DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569A18751F4BB40E00D991DD /* JsonToModelConverterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		569A18771F4BB40E00D991DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569A18801F4BB40E00D991DD /* JsonToModelConverterUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		569A18721F4BB40E00D991DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 569A18591F4BB40E00D991DD /* JsonToModelConverter */;
+			targetProxy = 569A18711F4BB40E00D991DD /* PBXContainerItemProxy */;
+		};
+		569A187D1F4BB40E00D991DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 569A18591F4BB40E00D991DD /* JsonToModelConverter */;
+			targetProxy = 569A187C1F4BB40E00D991DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		569A18681F4BB40E00D991DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				569A18691F4BB40E00D991DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		569A18821F4BB40E00D991DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		569A18831F4BB40E00D991DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		569A18851F4BB40E00D991DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JsonToModelConverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kt.JsonToModelConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		569A18861F4BB40E00D991DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JsonToModelConverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kt.JsonToModelConverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		569A18881F4BB40E00D991DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JsonToModelConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kt.JsonToModelConverterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JsonToModelConverter.app/Contents/MacOS/JsonToModelConverter";
+			};
+			name = Debug;
+		};
+		569A18891F4BB40E00D991DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JsonToModelConverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kt.JsonToModelConverterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JsonToModelConverter.app/Contents/MacOS/JsonToModelConverter";
+			};
+			name = Release;
+		};
+		569A188B1F4BB40E00D991DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JsonToModelConverterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kt.JsonToModelConverterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JsonToModelConverter;
+			};
+			name = Debug;
+		};
+		569A188C1F4BB40E00D991DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = JsonToModelConverterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kt.JsonToModelConverterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JsonToModelConverter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		569A18551F4BB40E00D991DD /* Build configuration list for PBXProject "JsonToModelConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				569A18821F4BB40E00D991DD /* Debug */,
+				569A18831F4BB40E00D991DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		569A18841F4BB40E00D991DD /* Build configuration list for PBXNativeTarget "JsonToModelConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				569A18851F4BB40E00D991DD /* Debug */,
+				569A18861F4BB40E00D991DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		569A18871F4BB40E00D991DD /* Build configuration list for PBXNativeTarget "JsonToModelConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				569A18881F4BB40E00D991DD /* Debug */,
+				569A18891F4BB40E00D991DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		569A188A1F4BB40E00D991DD /* Build configuration list for PBXNativeTarget "JsonToModelConverterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				569A188B1F4BB40E00D991DD /* Debug */,
+				569A188C1F4BB40E00D991DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 569A18521F4BB40E00D991DD /* Project object */;
+}
